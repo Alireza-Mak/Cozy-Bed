@@ -53,6 +53,8 @@ body {
 }
 .cart-btn {
   position: relative;
+  border: none; 
+  background: none;
   cursor: pointer;
 }
 .cart-items {
