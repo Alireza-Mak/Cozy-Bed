@@ -51,7 +51,7 @@ class Products {
   }
   async getProducts() {
     try {
-      await fetch('https://alireza-mak.github.io/products/products.json')
+      await fetch('https://alireza-mak.github.io/Cozy-Bed/products.json')
         .then(await this.pause(100))
         .then((response) => response.json())
         .then((data) => {
